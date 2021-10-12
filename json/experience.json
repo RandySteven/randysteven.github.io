@@ -1,0 +1,24 @@
+{
+    "experiences":[
+        {
+            "experience": "DSC Core Member",
+            "desc": "In DSC we want all member to develop and learn together, so as core member we have opportunity to manage the curriculum and teach other member about technology.",
+            "img" : "assets/2020-10-01 (2).png"
+        },
+        {
+            "experience": "Kotakode Moderator",
+            "desc": "As moderator we have opportunity to edit the question in forum, answer the question, and delete spam or out of context question.",
+            "img": "assets/1599712912794.jpeg"
+        },
+        {
+            "experience": "BNCC Web Programming Mentor",
+            "desc": "BNCC is Bina Nusantara Computer Club, the computer club for Bina Nusantara University's students that learn about web development using Laravel framework",
+            "img": "assets/uPF2VJxl_400x400.jpg"
+        },
+        {
+            "experience": "IS Lab Project Member",
+            "desc": "IS Lab Project Member is Information System major's lab that learn about programming, application design, and business technology",
+            "img": "assets/logo-binus-png-6.png"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "skills":[
+        {
+            "skill":"Laravel",
+            "desc":"Laravel is PHP Framework, that help us in make Web Development and create the A.P.I.",
+            "img":"assets/download.png"
+        },
+        {
+            "skill":"NodeJS",
+            "desc":"Nodejs is runtime environment Javascript server that help us in backend programming. Nodejs with express.js can create A.P.I.",
+            "img":"assets/1_M10QaO1mZCk_jvH2EBNmaQ.jpeg"
+        },
+        {
+            "skill":"Mongodb",
+            "desc":"Mongodb is NoSQL database with which is its make from the collections of documents with JSON-like documents.",
+            "img":"assets/1_Ta4qktHtO--RMUpnR08mBg.jpeg"
+        },
+        {
+            "skill":"MySQL",
+            "desc":"MySQL is open source relational database management. Its combination of 'My', the name of co-founder Michael Widenius's daughter, and SQL (Structure Query Language)",
+            "img":"assets/mysql-logo.jpg"
+        },
+        {
+            "skill":"Flutter",
+            "desc":"Flutter is Dart framework ,develop by google and help in web and mobile development.",
+            "img":"assets/flutter-logo.png"
+        },
+        {
+            "skill":"Java",
+            "desc":"Programming language which is build for Mobile Development, Software Development, and Web Development.",
+            "img":"assets/patch-or-perish-java-ftc-tells-oracle-showcase_image-1-p-2014.jpg"
+        },
+        {
+            "skill":"Python",
+            "desc":"Python is simple language that help with big data project, because the library and the strong community for data science, data analysis, and data engineer.",
+            "img":"assets/python-logo.png"
+        },
+        {
+            "skill":"Tailwindcss",
+            "desc":"Tailwindcss is CSS framework that can be composed to build any design, directly in your markup.",
+            "img":"assets/download (1).png"
+        }
+    ]
+}
