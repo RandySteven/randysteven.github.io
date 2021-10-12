@@ -1,0 +1,24 @@
+{
+    "social_medias":[
+        {
+            "media":"LinkedIn",
+            "links":"https://www.linkedin.com/in/randy-steven-a41a76192/",
+            "img":"assets/linkedin.png"
+        },
+        {
+            "media":"Github",
+            "links":"https://github.com/RandySteven",
+            "img":"assets/github.png"
+        },
+        {
+            "media":"Instagram",
+            "links":"https://www.instagram.com/rndysteven/",
+            "img":"assets/instagram.png"
+        },
+        {
+            "media":"Medium",
+            "links":"https://medium.com/@randysteven12",
+            "img":"assets/medium.png"
+        }
+    ]
+}

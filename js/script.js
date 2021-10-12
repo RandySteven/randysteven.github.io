@@ -49,9 +49,21 @@ fetch('../json/skill.json')
     })
     .catch(err => console.log(err))
 
+fetch('../json/social_media.json')
+    .then(res => res.json())
+    .then(res => {
+        let medias = res.social_medias
+        let getSocialMedia = document.getElementById('medias')
+        let datas = ""
+        medias.forEach(media => {
+            datas += getSocialMediaJSON(media)
+        });
+        getSocialMedia.innerHTML = `<div class="row">` + datas + `</div>`
+    })
+
 const getExperienceJSON = (experience) => {
     return `
-        <div class="col-sm-3">
+        <div class="col-6 col-sm-3">
             <div class="card" style="width: 15rem;">
                 <img src="${experience.img}" class="card-img-top">
                 <h6 class="text-center">${experience.experience}</h6>
@@ -79,12 +91,22 @@ const getSkillJSON = (skill) => {
 
 const getCertificateJSON = (certificate) => {
     return `
-        <div class="col-sm-3">
-            <a href="${certificate.links}">
+        <div class="col-6 col-sm-3">
+            <a href="${certificate.links}" target="_blank">
             <div class="card my-3" style="width: 17rem; height:12rem">
                 <img src="${certificate.img}" class="card-img-top" height="150" alt="...">
                 <h6 class="text-center">${certificate.certificate}</h6>
             </div>
+            </a>
+        </div>
+    `
+}
+
+const getSocialMediaJSON = (media) => {
+    return `
+        <div class="col">
+            <a href="${media.links}" target="_blank">
+                <img src="${media.img}" width="50" alt="">
             </a>
         </div>
     `
