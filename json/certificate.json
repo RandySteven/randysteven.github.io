@@ -1,8 +1,24 @@
 {
     "certificates":[
         {
-            "certificate":"",
-            "img":""
+            "certificate":"Kotakode Senior Mentor",
+            "img":"assets/Randy Steven (1)-1.png",
+            "links": "https://drive.google.com/file/d/1YMrRTbeDt9FaBwjDkIVPsnmS4gh-pD_o/view"
+        },
+        {
+            "certificate": "Backend Weekly Workshop",
+            "img":"assets/Randy (1).png",
+            "links":"https://drive.google.com/file/d/1AIGHrENPby0Yyw1CDTIGd6yE9Bg4_bJr/view"
+        },
+        {
+            "certificate": "Android Weekly Workshop",
+            "img": "assets/Randy.png",
+            "links": "https://drive.google.com/file/d/1joYnXWumnF2BQuhukFj43Rc12AOUcohu/view"
+        },
+        {
+            "certificate": "Web Programming Mentor",
+            "img": "assets/Randy Steven (2)-1.png",
+            "links": "https://drive.google.com/file/d/1iQIJO6bgxAfehWKU3X6xWQ_CoG5PK8mF/view"
         }
     ]
 }

@@ -24,6 +24,18 @@ fetch('../json/skill.json')
     })
     .catch(err => console.log(err))
 
+fetch('../json/certificate.json')
+    .then(res => res.json())
+    .then(res => {
+        let certificates = res.certificates
+        let getCertificate = document.getElementById('certificates')
+        let datas = ""
+        certificates.forEach(certificate => {
+            datas += getCertificateJSON(certificate)
+        });
+        getCertificate.innerHTML =`<div class="row my-2">` + datas + `</div>`
+    })
+
 fetch('../json/skill.json')
     .then(res => res.json())
     .then(res => {
@@ -61,6 +73,19 @@ const getSkillJSON = (skill) => {
                     <p class="card-text">${skill.desc}</p>
                 </div>
             </div>
+        </div>
+    `
+}
+
+const getCertificateJSON = (certificate) => {
+    return `
+        <div class="col-sm-3">
+            <a href="${certificate.links}">
+            <div class="card my-3" style="width: 17rem; height:12rem">
+                <img src="${certificate.img}" class="card-img-top" height="150" alt="...">
+                <h6 class="text-center">${certificate.certificate}</h6>
+            </div>
+            </a>
         </div>
     `
 }
