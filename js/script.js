@@ -104,7 +104,7 @@ const getCertificateJSON = (certificate) => {
 
 const getSocialMediaJSON = (media) => {
     return `
-        <div class="col">
+        <div class="col-12 col-sm-3 my-2">
             <a href="${media.links}" target="_blank">
                 <img src="${media.img}" width="50" alt="">
             </a>
