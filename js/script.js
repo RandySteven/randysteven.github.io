@@ -63,7 +63,7 @@ fetch('../json/social_media.json')
 
 const getExperienceJSON = (experience) => {
     return `
-        <div class="col-6 col-sm-3 my-3">
+        <div class="col-12 col-sm-3 my-3">
             <div class="card" style="width: 15rem;height: 30rem">
                 <img src="${experience.img}" class="card-img-top">
                 <h6 class="text-center">${experience.experience}</h6>
@@ -91,7 +91,7 @@ const getSkillJSON = (skill) => {
 
 const getCertificateJSON = (certificate) => {
     return `
-        <div class="col-6 col-sm-3 my-3">
+        <div class="col-12 col-sm-3 my-3">
             <a href="${certificate.links}" target="_blank">
             <div class="card my-3" style="width: 17rem; height:12rem">
                 <img src="${certificate.img}" class="card-img-top" height="150" alt="...">
